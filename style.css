@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Inconsolata:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shantell+Sans:ital,wght@1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Babylonica", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Poppins", sans-serif;
+  font-family: "Shantell Sans", cursive;
+}
+html,
+body {
+  background: #6fbcc3;
+}
+.maindiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  /* margin: 0 0 30px 0; */
+  padding: 0 0 40px 0;
+  text-align: center;
+}
+h2{
+    text-align: center;
+}
+textarea {
+    width: 100%;
+  background: #555552;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.main_btn,.main_btn1 {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0 10px 0 0 ;
+}
+.main_btn:hover {
+  color: whitesmoke;
+  background: crimson;
+  transition: 0.5s ease-in;
+}
+.main_btn1:hover {
+    color: whitesmoke;
+    background: rgb(21, 184, 100);
+    transition: 0.5s ease-in;
+  }
+.bt{
+    display: flex;
+    
+}
